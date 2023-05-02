@@ -52,7 +52,7 @@ To install and run the application, follow these steps:
 
 ### Calculate expenses
 
-1. Open the "Calculate" tab.
+1. Open the "Calculate" tab .
 2. Enter the necessary information about your expense.
 3. Press "Calculate" to view the result.
 
