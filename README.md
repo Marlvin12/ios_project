@@ -12,7 +12,11 @@ An expenses tracking application built with SwiftUI that calculates, tracks, and
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contribute](#contribute)
-- [License](#license)
+
+
+![ios expense tracker front](https://user-images.githubusercontent.com/122947486/235766164-d7eb09d4-1a44-4364-a79b-7e9e6cc61058.gif)
+
+
 
 ## Introduction
 
