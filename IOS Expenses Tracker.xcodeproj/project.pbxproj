@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4EF91329CA0D690069B107 /* IOS_Expenses_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF91229CA0D690069B107 /* IOS_Expenses_TrackerApp.swift */; };
+		CF4EF91529CA0D690069B107 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF91429CA0D690069B107 /* ContentView.swift */; };
+		CF4EF91729CA0D700069B107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4EF91629CA0D700069B107 /* Assets.xcassets */; };
+		CF4EF91A29CA0D700069B107 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4EF91929CA0D700069B107 /* Preview Assets.xcassets */; };
+		CF4EF92129CA11000069B107 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92029CA11000069B107 /* Extensions.swift */; };
+		CF4EF92329CB6AA10069B107 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92229CB6AA10069B107 /* TransactionModel.swift */; };
+		CF4EF92529CCA2CF0069B107 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92429CCA2CF0069B107 /* PreviewData.swift */; };
+		CF4EF92729CCA5170069B107 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92629CCA5160069B107 /* TransactionRow.swift */; };
+		CF4EF92A29CCB3160069B107 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = CF4EF92929CCB3160069B107 /* SwiftUIFontIcon */; };
+		CF4EF92C29CCB5EC0069B107 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92B29CCB5EC0069B107 /* TransactionListViewModel.swift */; };
+		CF4EF92E29CCD4EA0069B107 /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92D29CCD4EA0069B107 /* RecentTransactionList.swift */; };
+		CF4EF93029CCEFD30069B107 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4EF92F29CCEFD30069B107 /* TransactionList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF4EF90F29CA0D690069B107 /* IOS Expenses Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS Expenses Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4EF91229CA0D690069B107 /* IOS_Expenses_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Expenses_TrackerApp.swift; sourceTree = "<group>"; };
+		CF4EF91429CA0D690069B107 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF4EF91629CA0D700069B107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4EF91929CA0D700069B107 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF4EF92029CA11000069B107 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CF4EF92229CB6AA10069B107 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		CF4EF92429CCA2CF0069B107 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		CF4EF92629CCA5160069B107 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		CF4EF92B29CCB5EC0069B107 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		CF4EF92D29CCD4EA0069B107 /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
+		CF4EF92F29CCEFD30069B107 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4EF90C29CA0D690069B107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4EF92A29CCB3160069B107 /* SwiftUIFontIcon in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4EF90629CA0D680069B107 = {
+			isa = PBXGroup;
+			children = (
+				CF4EF91129CA0D690069B107 /* IOS Expenses Tracker */,
+				CF4EF91029CA0D690069B107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4EF91029CA0D690069B107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EF90F29CA0D690069B107 /* IOS Expenses Tracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4EF91129CA0D690069B107 /* IOS Expenses Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EF91229CA0D690069B107 /* IOS_Expenses_TrackerApp.swift */,
+				CF4EF91429CA0D690069B107 /* ContentView.swift */,
+				CF4EF92D29CCD4EA0069B107 /* RecentTransactionList.swift */,
+				CF4EF92F29CCEFD30069B107 /* TransactionList.swift */,
+				CF4EF92629CCA5160069B107 /* TransactionRow.swift */,
+				CF4EF92B29CCB5EC0069B107 /* TransactionListViewModel.swift */,
+				CF4EF92229CB6AA10069B107 /* TransactionModel.swift */,
+				CF4EF92029CA11000069B107 /* Extensions.swift */,
+				CF4EF91629CA0D700069B107 /* Assets.xcassets */,
+				CF4EF91829CA0D700069B107 /* Preview Content */,
+			);
+			path = "IOS Expenses Tracker";
+			sourceTree = "<group>";
+		};
+		CF4EF91829CA0D700069B107 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF4EF91929CA0D700069B107 /* Preview Assets.xcassets */,
+				CF4EF92429CCA2CF0069B107 /* PreviewData.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4EF90E29CA0D690069B107 /* IOS Expenses Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF4EF91D29CA0D700069B107 /* Build configuration list for PBXNativeTarget "IOS Expenses Tracker" */;
+			buildPhases = (
+				CF4EF90B29CA0D690069B107 /* Sources */,
+				CF4EF90C29CA0D690069B107 /* Frameworks */,
+				CF4EF90D29CA0D690069B107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS Expenses Tracker";
+			packageProductDependencies = (
+				CF4EF92929CCB3160069B107 /* SwiftUIFontIcon */,
+			);
+			productName = "IOS Expenses Tracker";
+			productReference = CF4EF90F29CA0D690069B107 /* IOS Expenses Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4EF90729CA0D680069B107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CF4EF90E29CA0D690069B107 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CF4EF90A29CA0D680069B107 /* Build configuration list for PBXProject "IOS Expenses Tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4EF90629CA0D680069B107;
+			packageReferences = (
+				CF4EF92829CCB3160069B107 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				CFA816A529F714400081631B /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = CF4EF91029CA0D690069B107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4EF90E29CA0D690069B107 /* IOS Expenses Tracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4EF90D29CA0D690069B107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4EF91A29CA0D700069B107 /* Preview Assets.xcassets in Resources */,
+				CF4EF91729CA0D700069B107 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4EF90B29CA0D690069B107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4EF92529CCA2CF0069B107 /* PreviewData.swift in Sources */,
+				CF4EF93029CCEFD30069B107 /* TransactionList.swift in Sources */,
+				CF4EF92E29CCD4EA0069B107 /* RecentTransactionList.swift in Sources */,
+				CF4EF91529CA0D690069B107 /* ContentView.swift in Sources */,
+				CF4EF92329CB6AA10069B107 /* TransactionModel.swift in Sources */,
+				CF4EF92729CCA5170069B107 /* TransactionRow.swift in Sources */,
+				CF4EF92129CA11000069B107 /* Extensions.swift in Sources */,
+				CF4EF92C29CCB5EC0069B107 /* TransactionListViewModel.swift in Sources */,
+				CF4EF91329CA0D690069B107 /* IOS_Expenses_TrackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF4EF91B29CA0D700069B107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF4EF91C29CA0D700069B107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF4EF91E29CA0D700069B107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS Expenses Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = RXHUP8RR2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conan.IOS-Expenses-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF4EF91F29CA0D700069B107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IOS Expenses Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = RXHUP8RR2A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "conan.IOS-Expenses-Tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4EF90A29CA0D680069B107 /* Build configuration list for PBXProject "IOS Expenses Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4EF91B29CA0D700069B107 /* Debug */,
+				CF4EF91C29CA0D700069B107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF4EF91D29CA0D700069B107 /* Build configuration list for PBXNativeTarget "IOS Expenses Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF4EF91E29CA0D700069B107 /* Debug */,
+				CF4EF91F29CA0D700069B107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF4EF92829CCB3160069B107 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CFA816A529F714400081631B /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF4EF92929CCB3160069B107 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF4EF92829CCB3160069B107 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CF4EF90729CA0D680069B107 /* Project object */;
+}
