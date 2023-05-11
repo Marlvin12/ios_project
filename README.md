@@ -72,7 +72,7 @@ To install and run the application, follow these steps:
 Contributions are welcome! If you'd like to contribute to the Expenses Tracker project, please follow these steps:
 
 1. Fork the repository on GitHub.
-2. Create a new branch for your feature or bugfix.
+2. Create a new branch for your feature or bugfix .
 3. Commit your changes and push them to your fork.
 4. Create a pull request, providing a detailed description of your changes.
 
