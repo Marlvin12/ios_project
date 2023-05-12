@@ -67,7 +67,7 @@ To install and run the application, follow these steps:
 1. Open the "Visualize" tab.
 2. View the graph representing your spending habits over time.
 
-## Contribute
+## Contribute.
 
 Contributions are welcome! If you'd like to contribute to the Expenses Tracker project, please follow these steps:
 
