@@ -20,7 +20,7 @@ An expenses tracking application built with SwiftUI that calculates, tracks, and
 
 ## Introduction
 
-Expenses Tracker is a SwiftUI application designed to help users manage their personal finances. The application enables users to calculate and track their expenses, and visualize their spending habits in the form of a graph. The app uses REST API to fetch and store expenses data, ensuring a seamless user experience.
+Expenses Tracker  is a SwiftUI application designed to help users manage their personal finances. The application enables users to calculate and track their expenses, and visualize their spending habits in the form of a graph. The app uses REST API to fetch and store expenses data, ensuring a seamless user experience.
 
 ## Features
 
